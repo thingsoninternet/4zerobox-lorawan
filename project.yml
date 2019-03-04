@@ -1,0 +1,31 @@
+config:
+    # fourzerobox defines
+    # enable ethernet connection
+    NETWORK_ETH: null
+    # enable wifi connection
+    NETWORK_WIFI: null
+    # enable 010/420 ADC channel
+    ADC_010_420: null
+    # enable 010/420 ADC channel
+    ADC_RESISTIVE: true
+    # enable 010/420 ADC channel
+    ADC_CURRENT: true
+    # enable SD Card
+    SDCARD_ENABLED: null
+    # enable can peripheral
+    CAN_ENABLED: null
+    # enable RS485 peripheral
+    RS485_ENABLED: null
+    # enable RS232 peripheral
+    RS232_ENABLED: null
+    # fourzeroplatform defines
+    # enable HW crypto
+    ZERYNTH_HWCRYPTO_ATECCx08A: null
+    # enable stored certificate
+    CERT_STORED: null
+    # enable provate key and certificate from resources
+    CERT_SOURCE: null
+    # enable DEBUG for fourzerobox
+    DEBUG_FZB: null
+    # enable DEBUG for fourzeromanager
+    DEBUG_FZM: null
