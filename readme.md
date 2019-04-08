@@ -41,12 +41,12 @@ APP KEY: 16 bytes string per device, format is 32 hexadecimal characters
 
 Add them to the main.py file (line 10):
 
-'''
+```
 # insert OTAA credentials here
 deveui = ''
 appeui = ''
 appkey = ''
-'''
+```
 
 6 - Verify and uplink the code. More info here: https://docs.zerynth.com/latest/official/core.zerynth.docs/gettingstarted/docs/index.html#verify-and-uplink-a-zerynth-project
 
