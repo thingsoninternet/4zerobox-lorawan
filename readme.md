@@ -34,9 +34,9 @@ More info here: https://docs.zerynth.com/latest/official/core.zerynth.docs/getti
 5 - Edit the code with the OTAA credentials you can generate on ResIoT portal, as per the following specifications:
 
 
-DEV EUI: 8 bytes unique string per device, format is 16 hexadecimal characters
-APP EUI: 8 bytes string per device, format is 16 hexadecimal characters
-APP KEY: 16 bytes string per device, format is 32 hexadecimal characters
+- DEV EUI: 8 bytes unique string per device, format is 16 hexadecimal characters
+- APP EUI: 8 bytes string per device, format is 16 hexadecimal characters
+- APP KEY: 16 bytes string per device, format is 32 hexadecimal characters
  
 
 Add them to the main.py file (line 10):
