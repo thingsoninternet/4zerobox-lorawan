@@ -31,7 +31,23 @@ programming the 4ZeroBox applications in Python (or hybrid C/Python). Zerynth® 
 4 - Create a new project and insert the link to this repo into the field "Clone from GitHub"
 More info here: https://docs.zerynth.com/latest/official/core.zerynth.docs/gettingstarted/docs/index.html#develop-your-first-zerynth-project
 
-5 - Edit the code with the OTAA credentials you can find on ResIoT portal.
+5 - Edit the code with the OTAA credentials you can generate on ResIoT portal, as per the following specifications:
+
+
+DEV EUI: 8 bytes unique string per device, format is 16 hexadecimal characters
+APP EUI: 8 bytes string per device, format is 16 hexadecimal characters
+APP KEY: 16 bytes string per device, format is 32 hexadecimal characters
+ 
+
+Add them to the main.py file (line 10):
+
+# insert OTAA credentials here
+
+deveui = ''
+
+appeui = ''
+
+appkey = ''
 
 6 - Verify and uplink the code. More info here: https://docs.zerynth.com/latest/official/core.zerynth.docs/gettingstarted/docs/index.html#verify-and-uplink-a-zerynth-project
 
